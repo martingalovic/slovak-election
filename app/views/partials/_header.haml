@@ -1,0 +1,19 @@
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  .container
+    = link_to root_path, class: 'navbar-brand mb-0 h1' do
+      Choď Voliť
+    %button.navbar-toggler{type: 'button', 'data-toggle': 'collapse', 'data-target': '#navbar-main'}
+      %span.navbar-toggler-icon
+
+    .collapse.navbar-collapse#navbar-main
+      %ul.navbar-nav
+        %li.nav-item{class: ('active' if params[:controller] == 'static_pages' && params[:action] == 'index')}
+          = link_to 'Parlamentné voľby 2020', root_path, class: 'nav-link'
+
+        %li.nav-item{class: ('active' if params[:controller] == 'static_pages' && params[:action] == 'parties')}
+          = link_to 'Strany', parties_path, class: 'nav-link'
+
+        %li.nav-item{class: ('active' if params[:controller] == 'static_pages' && params[:action] == 'subjects')}
+          = link_to 'Kandidáti', subjects_path, class: 'nav-link'
+
+

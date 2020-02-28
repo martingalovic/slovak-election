@@ -8,4 +8,10 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    - unless @no_header
+      = render partial: 'partials/header'
+
     = yield
+
+    - unless @no_footer
+      = render partial: 'partials/footer'
