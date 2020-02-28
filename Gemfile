@@ -66,3 +66,7 @@ gem 'marco-polo', github: 'jurajmasar/marco-polo'
 gem 'awesome_print'
 
 gem 'countries'
+
+gem "roo", "~> 2.8.0"
+
+gem 'activerecord-import'
