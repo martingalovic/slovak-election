@@ -1,4 +1,4 @@
-Highcharts.polarisTheme = {
+Highcharts.customTheme = {
   chart: {
     style: {
       color: '#798C9C',
@@ -51,4 +51,4 @@ Highcharts.polarisTheme = {
   ],
 }
 
-Highcharts.setOptions(Highcharts.polarisTheme)
+Highcharts.setOptions(Highcharts.customTheme)

@@ -70,3 +70,5 @@ gem 'countries'
 gem "roo", "~> 2.8.0"
 
 gem 'activerecord-import'
+
+gem 'typhoeus'

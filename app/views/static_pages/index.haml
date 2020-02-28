@@ -1,6 +1,14 @@
 - @title = 'Live výsledky volieb 2020'
 
 .container
-  %h1.display-4 Live výsledky volieb 2020
+  %h1.h4.mb-4 Live výsledky volieb 2020
   .jumbotron
-    %div.live-chart{'data-controller': 'live', 'data-source': @parties.to_json}
+    - if counting_started?
+      %div.live-chart{'data-controller': 'live', 'data-source': @parties.to_json}
+    - else
+      %p.mb-0.text-center.text-muted
+        Výsledky sa začnu objavovať priebežne po 22:00.
+
+
+  %h4.my-4 Počet kandidátov strán
+  = render partial: 'static_pages/parties_chart'

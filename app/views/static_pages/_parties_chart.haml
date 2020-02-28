@@ -1,0 +1,1 @@
+%div.column-chart{'data-controller': 'column-chart', 'data-series': Party.all.map { |party| [party.name, party.subjects.count] }.to_json}
