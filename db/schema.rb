@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_28_223010) do
+ActiveRecord::Schema.define(version: 2020_02_28_225531) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -75,8 +75,12 @@ ActiveRecord::Schema.define(version: 2020_02_28_223010) do
     t.string "note"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.decimal "percentage"
+    t.integer "votes"
     t.index ["name"], name: "index_parties_on_name"
     t.index ["party_number"], name: "index_parties_on_party_number", unique: true
+    t.index ["percentage"], name: "index_parties_on_percentage"
+    t.index ["votes"], name: "index_parties_on_votes"
   end
 
   create_table "subjects", force: :cascade do |t|

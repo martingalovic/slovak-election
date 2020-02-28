@@ -1,1 +1,6 @@
-- @title = 'Politické strany'
+- @title = 'Live výsledky volieb 2020'
+
+.container
+  %h1.display-4 Live výsledky volieb 2020
+  .jumbotron
+    %div.live-chart{'data-controller': 'live', 'data-source': @parties.to_json}
