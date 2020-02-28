@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  region_code: 1
+  region_name: MyString
+  subregion_code: 1
+  subregion_name: MyString
+  district_code: 1
+  district_name: MyString
+  city_code: 1
+  city_name: MyString
+  zones: 1
+
+two:
+  region_code: 1
+  region_name: MyString
+  subregion_code: 1
+  subregion_name: MyString
+  district_code: 1
+  district_name: MyString
+  city_code: 1
+  city_name: MyString
+  zones: 1

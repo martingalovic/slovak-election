@@ -1053,6 +1053,13 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
+ahoy.js@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/ahoy.js/-/ahoy.js-0.3.4.tgz#1810b34cbeba3ce371fb0947f9ef6d710390f4cd"
+  integrity sha512-PbJcMYNy4f+WbaJhXziPqgaR0oBT0vX63h50UUHf4Y0Q1VLgQS/1obhjzEGy6IXEvKPI+XpdzQMAMsgIOSJGMw==
+  dependencies:
+    object-to-formdata "^1.3.0"
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -1411,6 +1418,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.4.1.tgz#8582960eea0c5cd2bede84d8b0baf3789c3e8b01"
+  integrity sha512-tbx5cHubwE6e2ZG7nqM3g/FZ5PQEDMWmMGNrCUBVRPHXTJaH7CBDdsLeu3eCh3B1tzAxTnAbtmrzvWEvT2NNEA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1803,6 +1815,18 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+
+coffee-loader@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/coffee-loader/-/coffee-loader-0.9.0.tgz#6deabd336062ddc6d773da4dfd16367fc7107bd6"
+  integrity sha512-VSoQ5kWr6Yfjn4RDpVbba2XMs3XG1ZXtLakPRt8dNfUcNU9h+1pocpdUUEd7NK9rLDwrju4yonhxrL8aMr5tww==
+  dependencies:
+    loader-utils "^1.0.2"
+
+coffeescript@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/coffeescript/-/coffeescript-2.5.1.tgz#b2442a1f2c806139669534a54adc35010559d16a"
+  integrity sha512-J2jRPX0eeFh5VKyVnoLrfVFgLZtnnmp96WQSLAS8OrLm2wtQLcnikYKe1gViJKDH7vucjuhHvBKKBP3rKcD1tQ==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -2830,6 +2854,11 @@ file-uri-to-path@1.0.0:
   resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
   integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
 
+filesize@^6.0.1:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/filesize/-/filesize-6.1.0.tgz#e81bdaa780e2451d714d71c0d7a4f3238d37ad00"
+  integrity sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg==
+
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-4.0.0.tgz#d544811d428f98eb06a63dc402d2403c328c38f7"
@@ -3267,6 +3296,11 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+
+highcharts@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-8.0.0.tgz#fcf77a511d6ea477b9d8447afd9dedbfc85e2727"
+  integrity sha512-jRKLiP0i29zKSEgMDASyrfpivrM3e8V8yTv8YUZtRzB2mXR+hsBNHWZw2hNRZVxqq1QCVmW/9Z/BLFvYlJELqA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -3847,6 +3881,11 @@ jest-worker@^25.1.0:
   dependencies:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
+
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
 js-base64@^2.1.8:
   version "2.5.2"
@@ -4672,6 +4711,11 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
+object-to-formdata@^1.3.0:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/object-to-formdata/-/object-to-formdata-1.6.4.tgz#ee2c3693ae6829ce8847f77eff7a3d8289c843e1"
+  integrity sha512-1XZmRyR6yBhDxogp+9Vi00FFDtCah8x8FGc98lgvBzZlGeQGxj00pKmWHtzl7vrSpqPx5zXVb/XbiP5ZS2karg==
+
 object-visit@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/object-visit/-/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
@@ -5061,6 +5105,11 @@ pnp-webpack-plugin@^1.5.0:
   integrity sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
   dependencies:
     ts-pnp "^1.1.6"
+
+popper.js@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.25:
   version "1.0.25"
@@ -6876,6 +6925,11 @@ thunky@^1.0.2:
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==
 
+timeago.js@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/timeago.js/-/timeago.js-4.0.2.tgz#724e8c8833e3490676c7bb0a75f5daf20e558028"
+  integrity sha512-a7wPxPdVlQL7lqvitHGGRsofhdwtkoSXPGATFuSOA2i1ZNQEPLrGnj68vOp2sOJTCFAQVXPeNMX/GctBaO9L2w==
+
 timers-browserify@^2.0.4:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.11.tgz#800b1f3eee272e5bc53ee465a04d0e804c31211f"
@@ -6992,6 +7046,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+underscore@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.2.tgz#0c8d6f536d6f378a5af264a72f7bec50feb7cf2f"
+  integrity sha512-D39qtimx0c1fI3ya1Lnhk3E9nONswSKhnffBI0gME9C99fYOkNi04xs8K6pePLhvl1frbDemkaBQ5ikWllR2HQ==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"

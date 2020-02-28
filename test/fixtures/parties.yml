@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  party_number: 1
+  name: MyString
+  abbrevation: MyString
+  candidates: 1
+  note: MyString
+
+two:
+  party_number: 1
+  name: MyString
+  abbrevation: MyString
+  candidates: 1
+  note: MyString

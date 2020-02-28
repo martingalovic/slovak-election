@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  party: one
+  position: 1
+  first_name: MyString
+  last_name: MyString
+  title: MyString
+  age: 1
+  role: MyString
+  city: MyString
+  note: MyString
+
+two:
+  party: two
+  position: 1
+  first_name: MyString
+  last_name: MyString
+  title: MyString
+  age: 1
+  role: MyString
+  city: MyString
+  note: MyString
