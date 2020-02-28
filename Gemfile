@@ -64,3 +64,5 @@ gem 'ahoy_email'
 gem 'marco-polo', github: 'jurajmasar/marco-polo'
 
 gem 'awesome_print'
+
+gem 'countries'
