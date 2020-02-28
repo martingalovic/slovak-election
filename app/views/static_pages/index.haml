@@ -11,4 +11,36 @@
 
 
   %h4.my-4 Počet kandidátov strán
-  = render partial: 'static_pages/parties_chart'
+  .card.pt-4
+    = render partial: 'static_pages/parties_chart'
+
+  %h4.my-4 Kandidáti v parlamentných voľbách 2020
+  .row.my-4
+    - Party.includes(:subjects).all.in_groups(2, false) do |parties|
+      .col-lg-6
+        .card
+          .table-responsive
+            %table.table.table-hover
+              %thead
+                %tr
+                  %th Číslo
+                  %th Meno
+                  %th Mesto
+              %tbody
+                - parties.each do |party|
+                  %tr.bg-light
+                    %td{colspan: 4}
+                      %strong= party.name
+                  - party.subjects.each do |subject|
+                    %tr
+                      %td
+                        %span.ballot= "#{subject.ballot_position}."
+                      %td
+                        = link_to subject.full_name, subject_redirect_path(id: subject.id), rel: 'nofollow noopener', target: '_blank', class: 'js-tooltip', title: "Wikipedia — #{subject.full_name}"
+                        %small.text-muted
+                          %br
+                          - if subject.age
+                            = "#{subject.age} ročný"
+                          = subject.employment.presence
+                      %td.white-space-nowrap
+                        = subject.city

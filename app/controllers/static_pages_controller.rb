@@ -8,4 +8,10 @@ class StaticPagesController < ApplicationController
 
   def subjects
   end
+
+  def subject_redirect
+    @subject = Subject.find(params[:id])
+    search_term = "#{@subject.full_name} wikipedia"
+    redirect_to "https://duckduckgo.com/?q=\\#{CGI.escape(search_term)}"
+  end
 end

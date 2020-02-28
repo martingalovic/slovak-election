@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   controller :static_pages do
     get '/strany', action: :parties, as: :parties
     get '/kandidati', action: :subjects, as: :subjects
+    get '/kandidat-wiki/:id', action: :subject_redirect, as: :subject_redirect
   end
 end

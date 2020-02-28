@@ -3,3 +3,18 @@
 .column-chart {
   height: 350px;
 }
+
+.ballot {
+  border: 1px solid $red;
+  color: $red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}

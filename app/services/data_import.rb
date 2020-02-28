@@ -32,9 +32,10 @@ class DataImport
           first_name: row[3],
           last_name: row[4],
           title: row[5],
-          employment: row[6],
-          city: row[7],
-          note: row[8],
+          age: row[6],
+          employment: row[7],
+          city: row[8],
+          note: row[9],
         }
       end
 
